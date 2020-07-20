@@ -912,4 +912,28 @@ footer {
 	}
 }
  
+ @media (max-width: 483px) {
+	.flex {
+	flex-direction: column;
+	align-items: center;
+	}
+	
+	#content #sidebar .left {
+	width:70%;
+}
 
+#content #sidebar .right {
+	width:70%;
+}
+	#Problem {
+		width:99%;
+	}
+ 
+	.menu ul {
+		float: left;
+		font-size: 9px;
+	}
+ }
+	
+	
+	
